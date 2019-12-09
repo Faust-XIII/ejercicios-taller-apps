@@ -1,0 +1,41 @@
+.encabezado{
+    display: grid;
+    height: 90px;
+    width: 620px ;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.test{
+height: 900px;
+width : 620px;
+margin-left: 400PX;
+margin-right: 10PX;
+margin-top: 80px;
+background-color: pink;
+border-radius: 30px;
+border-width: 2px;
+border-color: black;
+}
+
+.box-container{
+    height: 900px;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px ;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+.box{
+    border-radius: 20px;
+ background-color : #5AD2AE;
+ border: 10px;
+ border-color: white;
+ text-align: center
+
+}
