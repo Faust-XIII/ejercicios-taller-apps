@@ -14,7 +14,7 @@ body {
 .test {
     height: 900px;
     width: 620px;
-    margin-left: 400PX;
+    margin-left: 550PX;
     margin-right: 10PX;
     margin-top: 80px;
     background-color: rgb(181, 228, 212);
@@ -22,6 +22,7 @@ body {
     border-width: 2px;
     border-color:  gold;
     border-style: solid;
+    justify-content: center;
     
 }
 
@@ -67,7 +68,7 @@ body {
 .artist-name {
 
     margin-top: auto;
-    color: black;
+    color: whitesmoke;
     font: larger;
 
 }
