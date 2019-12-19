@@ -84,6 +84,16 @@ background: #AFAFAF;
 
 /* Color de texto de ayuda */
 .formulario-login input::placeholder {
-  color: grey;
-  opacity: 1;
-}
+ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #5AD2AE;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #5AD2AE;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #5AD2AE;
+  }
+
